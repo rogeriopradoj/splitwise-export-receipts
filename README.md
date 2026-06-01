@@ -17,9 +17,10 @@ A user-friendly tool to export all your Splitwise transaction data—including a
 > **Steps:**
 > 1. Go to [https://secure.splitwise.com/apps/new](https://secure.splitwise.com/apps/new) and create a new app.
 > 2. Set the callback URL to anything (e.g., `http://localhost:8080`).
-> 3. After creating the app, copy your **Consumer Key** and **Consumer Secret**.
-> 4. When you run this tool for the first time, you will be prompted to enter these keys and complete the authorization process in your browser.
-> 5. Your credentials will be saved securely in `~/.splitwise_auth.json` for future use.
+> 3. After creating the app, copy your **Client ID / Consumer Key** and **Client Secret / Consumer Secret**.
+> 4. When you run this tool for the first time, choose `oauth2` if your Splitwise app uses OAuth2, or `oauth1` for legacy apps.
+> 5. You will then be prompted to complete the authorization process in your browser.
+> 6. Your credentials will be saved securely in `~/.splitwise_auth.json` for future use.
 
 ## ⚡ How to Use (Step-by-Step Flow)
 
